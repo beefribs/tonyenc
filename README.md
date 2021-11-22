@@ -51,6 +51,7 @@ cd tonyenc
 phpize
 ./configure
 make
+make install
 ```
 将编译好的文件 tonyenc.so 加入到配置项 extension=tonyenc.so，重启 PHP 服务
 #### 在 Windows上安装
