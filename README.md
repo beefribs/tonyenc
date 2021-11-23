@@ -56,7 +56,9 @@ make install
 将编译好的文件 tonyenc.so 加入到配置项 extension=tonyenc.so，重启 PHP 服务
 #### 在 Windows上安装
 ```
-已编译了以下模块，可供测试（这里的密钥与源代码中的相同，需要安装有 VC15 运行库）:
+已编译了以下模块，可供测试（这里的密钥与源代码中的相同）:
+PHP7版本须安装有 VC15 运行库
+PHP8版本须安装有 VS16 运行库
 # php7.3 64位 非线程安全版
 php_tonyenc-1.0.0-7.3-nts-vc15-x64.dll
 # php7.3 32位 非线程安全版
@@ -73,6 +75,14 @@ php_tonyenc-1.0.0-7.4-nts-vc15-x86.dll
 php_tonyenc-1.0.0-7.4-ts-vc15-x64.dll
 # php7.4 32位 线程安全版
 php_tonyenc-1.0.0-7.4-ts-vc15-x86.dll
+# php8.0 64位 非线程安全版
+php_tonyenc-1.0.1-8.0-nts-vs16-x64.dll
+# php8.0 32位 非线程安全版
+php_tonyenc-1.0.1-8.0-nts-vs16-x86.dll
+# php8.0 64位 线程安全版
+php_tonyenc-1.0.1-8.0-ts-vs16-x64.dll
+# php8.0 32位 线程安全版
+php_tonyenc-1.0.1-8.0-ts-vs16-x86.dll
 ```
 
 ## 加密
