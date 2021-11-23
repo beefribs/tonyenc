@@ -3,7 +3,7 @@
 - 一个简洁、高性能、跨平台的 PHP7 PHP8 代码加密扩展，当前版本为 1.0.1
 - 本次仅是在原作者源码基础上增加了对PHP7.4 PHP8.0 PHP8.1的支持
 - 原作者项目地址：https://github.com/lihancong/tonyenc
-- PHP7版本请使用v1.0.0
+- PHP7版本请使用v1.0.0分支
 
 
 ## 特点
