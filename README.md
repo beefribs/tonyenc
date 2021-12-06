@@ -91,7 +91,7 @@ php_tonyenc-1.0.1-8.1-nts-vs16-x86.dll
 # php8.1 64位 线程安全版
 php_tonyenc-1.0.1-8.1-ts-vs16-x64.dll
 # php8.1 32位 线程安全版
-php_tonyenc-1.0.1-8.1-ts-vs16-x86.dll
+php_tonyenc-1.0.1-8.1-ts-vs16-x86.dll 
 ```
 
 ## 加密
