@@ -53,7 +53,7 @@ PHP8:
 git clone https://gitee.com/lfveeker/tonyenc.git
 cd tonyenc
 phpize
-./configure
+./configure --with-php-config=php-config path
 make
 make install
 ```
