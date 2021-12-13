@@ -47,13 +47,18 @@ const u_char tonyenc_key[] = {
 
 #### 在 Linux、macOS 上编译
 ```
+PHP7版本请拉取v1.0.0分支:
+git clone -b v1.0.0 https://gitee.com/lfveeker/tonyenc.git
+PHP8:
 git clone https://gitee.com/lfveeker/tonyenc.git
 cd tonyenc
 phpize
-./configure
+./configure --with-php-config=php-config path
 make
 make install
 ```
+
+
 将编译好的文件 tonyenc.so 加入到配置项 extension=tonyenc.so，重启 PHP 服务
 #### 在 Windows上安装
 ```
