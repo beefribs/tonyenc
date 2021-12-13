@@ -41,22 +41,22 @@ const u_char tonyenc_key[] = {
 git clone -b v1.0.0 https://gitee.com/lfveeker/tonyenc.git
 cd tonyenc
 phpize
-./configure
+./configure --with-php-config=php-config path
 make
+make install
 ```
 将编译好的文件 tonyenc.so 加入到配置项 extension=tonyenc.so，重启 PHP 服务
 
 #### 在 Windows上安装
 ```
-已编译了以下模块，可供测试（这里的密钥与源代码中的相同，需要安装有 VC15 运行库）:
-# php7.3 64位 非线程安全版
-php_tonyenc-1.0.0-7.3-nts-vc15-x64.dll
-# php7.3 32位 非线程安全版
-php_tonyenc-1.0.0-7.3-nts-vc15-x86.dll
-# php7.3 64位 线程安全版
-php_tonyenc-1.0.0-7.3-ts-vc15-x64.dll
-# php7.3 32位 线程安全版
-php_tonyenc-1.0.0-7.3-ts-vc15-x86.dll
+已编译了以下模块，可供测试（这里的密钥与源代码中的相同）:
+7.0~7.1版本需要安装有 VC14 运行库
+7.2~7.4版本需要安装有 VC15 运行库
+NTS:Non Thread Safe(非线程安全)
+TS:Thread Safe(线程安全)
+x64:64位
+x86:32位
+eg:
 # php7.4 64位 非线程安全版
 php_tonyenc-1.0.0-7.4-nts-vc15-x64.dll
 # php7.4 32位 非线程安全版
@@ -65,6 +65,7 @@ php_tonyenc-1.0.0-7.4-nts-vc15-x86.dll
 php_tonyenc-1.0.0-7.4-ts-vc15-x64.dll
 # php7.4 32位 线程安全版
 php_tonyenc-1.0.0-7.4-ts-vc15-x86.dll
+其他版本不再赘述，可用的dll文件均在windows-dll目录，请根据自己的PHP版本选择对应的dll
 ```
 
 ## 加密
