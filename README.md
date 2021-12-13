@@ -58,16 +58,14 @@ make install
 #### 在 Windows上安装
 ```
 已编译了以下模块，可供测试（这里的密钥与源代码中的相同）:
-PHP7版本须安装有 VC15 运行库
-PHP8版本须安装有 VS16 运行库
-# php7.3 64位 非线程安全版
-php_tonyenc-1.0.0-7.3-nts-vc15-x64.dll
-# php7.3 32位 非线程安全版
-php_tonyenc-1.0.0-7.3-nts-vc15-x86.dll
-# php7.3 64位 线程安全版
-php_tonyenc-1.0.0-7.3-ts-vc15-x64.dll
-# php7.3 32位 线程安全版
-php_tonyenc-1.0.0-7.3-ts-vc15-x86.dll
+7.0~7.1版本需要安装有 VC14 运行库
+7.2~7.4版本需要安装有 VC15 运行库
+8.0+版本需要安装有 VS16 运行库 
+NTS:Non Thread Safe(非线程安全)
+TS:Thread Safe(线程安全)
+x64:64位
+x86:32位
+eg:
 # php7.4 64位 非线程安全版
 php_tonyenc-1.0.0-7.4-nts-vc15-x64.dll
 # php7.4 32位 非线程安全版
@@ -76,22 +74,7 @@ php_tonyenc-1.0.0-7.4-nts-vc15-x86.dll
 php_tonyenc-1.0.0-7.4-ts-vc15-x64.dll
 # php7.4 32位 线程安全版
 php_tonyenc-1.0.0-7.4-ts-vc15-x86.dll
-# php8.0 64位 非线程安全版
-php_tonyenc-1.0.1-8.0-nts-vs16-x64.dll
-# php8.0 32位 非线程安全版
-php_tonyenc-1.0.1-8.0-nts-vs16-x86.dll
-# php8.0 64位 线程安全版
-php_tonyenc-1.0.1-8.0-ts-vs16-x64.dll
-# php8.0 32位 线程安全版
-php_tonyenc-1.0.1-8.0-ts-vs16-x86.dll
-# php8.1 64位 非线程安全版
-php_tonyenc-1.0.1-8.1-nts-vs16-x64.dll
-# php8.1 32位 非线程安全版
-php_tonyenc-1.0.1-8.1-nts-vs16-x86.dll
-# php8.1 64位 线程安全版
-php_tonyenc-1.0.1-8.1-ts-vs16-x64.dll
-# php8.1 32位 线程安全版
-php_tonyenc-1.0.1-8.1-ts-vs16-x86.dll 
+其他版本不再赘述，可用的dll文件均在windows-dll目录，请根据自己的PHP版本选择对应的dll
 ```
 
 ## 加密
