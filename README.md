@@ -57,8 +57,6 @@ phpize
 make
 make install
 ```
-
-
 将编译好的文件 tonyenc.so 加入到配置项 extension=tonyenc.so，重启 PHP 服务
 #### 在 Windows上安装
 ```
@@ -81,6 +79,7 @@ php_tonyenc-1.0.0-7.4-ts-vc15-x64.dll
 php_tonyenc-1.0.0-7.4-ts-vc15-x86.dll
 其他版本不再赘述，可用的dll文件均在windows-dll目录，请根据自己的PHP版本选择对应的dll
 ```
+- 自定义密钥后构建Windows版扩展请参照build_windows_dll.pdf所提供的步骤。
 
 ## 加密
 
