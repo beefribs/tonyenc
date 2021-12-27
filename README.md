@@ -1,3 +1,13 @@
+## 使用须知
+- PHP7.x 请使用v1.0.0分支
+  ```
+  git clone -b v1.0.0 https://gitee.com/lfveeker/tonyenc.git
+  ```
+- PHP8.x 推荐使用master分支；v1.0.0分支虽然可以编译成功；，但是在cli模式下会报如下错误：
+  ```
+  PHP Warning:  Missing arginfo for tonyenc_encode() in Unknown on line 0
+  ```
+- master分支已移除对PHP7.x的支持 
 ## 介绍
 
 - 一个简洁、高性能、跨平台的 PHP7 PHP8 代码加密扩展，当前版本为 1.0.1
