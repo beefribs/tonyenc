@@ -1,13 +1,13 @@
 ## 使用须知
-- PHP7.x 请使用v1.0.0分支
+- PHP7.x 请使用v1.0.0分支或者下1.0.0发行版
   ```
   git clone -b v1.0.0 https://gitee.com/lfveeker/tonyenc.git
   ```
-- PHP8.x 推荐使用master分支；v1.0.0分支虽然可以编译成功；，但是在cli模式下会报如下警告：
+- PHP8.x 推荐使用master分支或者1.0.1发行版；v1.0.0分支虽然可以编译成功；，但是在cli模式下会报如下警告：
   ```
   PHP Warning:  Missing arginfo for tonyenc_encode() in Unknown on line 0
   ```
-- master分支已移除对PHP7.x的支持 
+- master分支已移除对PHP7.x的支持。
 ## 介绍
 
 - 一个简洁、高性能、跨平台的 PHP7 PHP8 代码加密扩展，当前版本为 1.0.1
@@ -27,13 +27,6 @@
 - 要求 PHP >= 7.0
 
 **加密前记得备份!!!**
-
-## 更新
-```
-解决v1.0.0版本在PHP8.0+版本会导致cli模式报如下警告的问题：
-PHP Warning:  Missing arginfo for tonyenc_encode() in Unknown on line 0
-该版本移除对PHP7的支持，PHP7版本请使用v1.0.0
-```
 
 ## 安装
 
