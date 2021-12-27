@@ -3,7 +3,7 @@
   ```
   git clone -b v1.0.0 https://gitee.com/lfveeker/tonyenc.git
   ```
-- PHP8.x 推荐使用master分支或者1.0.1发行版；v1.0.0分支虽然可以编译成功；，但是在cli模式下会报如下警告：
+- PHP8.x 推荐使用master分支或者1.0.1发行版；v1.0.0分支虽然可以编译成功，但是在cli模式下会报如下警告：
   ```
   PHP Warning:  Missing arginfo for tonyenc_encode() in Unknown on line 0
   ```
